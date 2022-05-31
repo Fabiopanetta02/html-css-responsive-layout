@@ -204,6 +204,10 @@ section{
   padding: 2rem 2rem;
 }
 
+div.container{
+  padding: 2rem 2rem;
+}
+
 .bg-azzurro{
   background-color: var(--azzurro-chiaro);
   border-radius: 10px;
@@ -372,7 +376,7 @@ h2.title-bg-azzurro{
   }
 
   .pad-bot{
-    padding-bottom: 190px;
+    padding-bottom: 106px;
   }
 
   .row{
@@ -388,11 +392,11 @@ h2.title-bg-azzurro{
   }
 
   .large-col{
-    width: 65%;
+    width: 67%;
   }
 
   .small-col{
-    width: 35%;
+    width: 33%;
   } 
 
   .img-bg-secondary{
@@ -469,7 +473,7 @@ h2.title-bg-azzurro{
   }
 
   .pad-bot{
-    padding-bottom: 250px;
+    padding-bottom: 225px;
   }
 
   .img-bg-secondary{
@@ -528,7 +532,7 @@ h2.title-bg-azzurro{
   }
 
   .pad-bot{
-    padding-bottom: 83px;
+    padding-bottom: 50px;
   }
 
   .left-img-text{
