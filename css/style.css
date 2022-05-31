@@ -154,6 +154,19 @@ p.text-lilla{
   font-weight: bold;
 }
 
+/* Section get started */
+h3.text-white{
+  font-size: 40px;
+}
+
+h2.text-yellow{
+  font-size: 60px;
+  color: var(--yellow-text);
+}
+
+.underline-white{
+  text-decoration: underline;
+}
 
 /* Utils */
 body{
@@ -216,7 +229,7 @@ h2.title-bg-azzurro{
   position: relative;
 }
 
-.fa-quote-left{
+.fa-quote-left-id{
   color: var(--secondary-color-bg);
 }
 
@@ -301,11 +314,16 @@ h2.title-bg-azzurro{
     text-align: left;
   }
 
-  .fa-quote-left{
+  .fa-quote-left-id{
     position: absolute;
     top: 10px;
     right: 280px;
     font-size: 30px;
+  }
+
+  p.text-white{
+    width: 100%;
+    margin: auto;
   }
 
 }
@@ -322,6 +340,10 @@ h2.title-bg-azzurro{
 
   ul{
     display: none;
+  }
+
+  .pad-bot{
+    padding-bottom: 190px;
   }
 
   .row{
@@ -384,12 +406,18 @@ h2.title-bg-azzurro{
     width: 30%;
   }
 
-  .fa-quote-left{
+  .fa-quote-left-id{
     position: absolute;
     top: 10px;
     right: 60px;
     font-size: 30px;
   }
+
+  p.text-white{
+    width: 60%;
+    margin: auto;
+  }
+  
 
 }
 
@@ -428,12 +456,18 @@ h2.title-bg-azzurro{
     padding: 10px;
   }
 
-  .fa-quote-left{
+  .fa-quote-left-id{
     position: absolute;
     top: 10px;
     right: 130px;
     font-size: 30px;
   }
+
+  p.text-white{
+    width: 60%;
+    margin: auto;
+  }
+  
 }
 
 @media screen and (min-width: 1200px) {
@@ -504,10 +538,16 @@ h2.title-bg-azzurro{
     width: 20%;
   }
 
-  .fa-quote-left{
+  .fa-quote-left-id{
     position: absolute;
     top: 10px;
     right: 70px;
     font-size: 30px;
   }
+
+  p.text-white{
+    width: 60%;
+    margin: auto;
+  }
+  
 }
