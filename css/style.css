@@ -62,6 +62,35 @@ main{
   padding-top: 80px;
 }
 
+.button-app{
+  text-decoration: none;
+  color: #fff;
+  background-color: var(--azzuro-nav);
+  padding: 10px 70px;
+  border-radius: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.fa-apple{
+  margin-right: 10px;
+}
+
+.iphone{
+  margin: auto;
+  margin-top: 40px;
+  width: 270px;
+  height: 300px;
+  display: block;
+}
+
+.fa-file-code, .fa-compass-drafting,
+.fa-laptop-code, .fa-bullhorn{
+  color: var(--azzuro-nav);
+  text-align: center;
+  font-size: 50px;
+}
 
 /* Utils */
 body{
@@ -77,6 +106,42 @@ section{
   padding: 1rem 2rem;
 }
 
+.bg-azzurro{
+  background-color: var(--azzurro-chiaro);
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 0 30px;
+  padding-top: 30px;
+}
+
+.mb-30{
+  margin-bottom: 30px;
+}
+
+h2.title-bg-azzurro{
+  color: var(--azzuro-nav);
+}
+
+.p-bg-azzurro{
+  color: #5A6E7F;
+  font-size: 18px;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+.text-center{
+  text-align: center;
+}
+
+.pad-bot{
+  padding-bottom: 190px;
+}
+
+.pad-bot-20{
+  padding-bottom: 20px;
+}
+
+
 /* Utils secondary color */
 .bg-secondary{
   background-color: var(--secondary-color-bg);
@@ -90,10 +155,14 @@ section{
   
   .fa-bars{
     display: inline-block;
+    font-size: 20px;
   }
 
   ul{
     display: none;
+  }
+  .pad-bot{
+    padding-bottom: 20px;
   }
 
 }
@@ -105,11 +174,32 @@ section{
   
   .fa-bars{
     display: inline-block;
+    font-size: 20px;
   }
 
   ul{
     display: none;
   }
+
+  .row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px;
+  }
+
+  .col{
+    width: calc(100% / 3);
+    padding: 10px;
+  }
+
+  .large-col{
+    width: 65%;
+  }
+
+  .small-col{
+    width: 35%;
+  } 
 
 }
 
@@ -126,6 +216,10 @@ section{
     display: inline-block;
   }
 
+  .pad-bot{
+    padding-bottom: 250px;
+  }
+
 }
 
 @media screen and (min-width: 1200px) {
@@ -137,4 +231,19 @@ section{
     display: inline-block;
   }
 
+  .flex{
+    display: flex;
+  }
+
+  .left-card{
+    width: 60%;
+  }
+
+  .right-card{
+    width: 40%;
+  }
+
+  .pad-bot{
+    padding-bottom: 83px;
+  }
 }
