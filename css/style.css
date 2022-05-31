@@ -61,7 +61,7 @@ a.button-nav{
 main{
   padding-top: 80px;
 }
-
+/* Section card azzurre */
 .button-app{
   text-decoration: none;
   color: #fff;
@@ -91,6 +91,23 @@ main{
   text-align: center;
   font-size: 50px;
 }
+
+/* Section Strategic */
+.img-bg-secondary{
+  width: 100%;
+  height: 400px;
+}
+
+.fa-arrow-down-long{
+  line-height: 50px;
+}
+
+.img-bg-white{
+  width: 100%;
+  height: 400px;
+  padding: 30px;
+}
+
 
 /* Utils */
 body{
@@ -141,10 +158,34 @@ h2.title-bg-azzurro{
   padding-bottom: 20px;
 }
 
+.text-white, .p-text-white{
+  color: #fff;
+}
+
+
+
+
 
 /* Utils secondary color */
 .bg-secondary{
   background-color: var(--secondary-color-bg);
+}
+
+.bg-white-down{
+  background-color: #fff;
+  border-radius: 20px;
+  color: #000;
+  padding: 1px 15px;
+}
+
+.circle-lilla{
+  background-color: var(--secondary-color-bg);
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  text-align: center;
+  margin: auto;
+  margin-bottom: 10px;
 }
 
 /* Media query */
@@ -161,8 +202,13 @@ h2.title-bg-azzurro{
   ul{
     display: none;
   }
+
   .pad-bot{
     padding-bottom: 20px;
+  }
+
+  h2.title-text-white{
+    font-size: 30px;
   }
 
 }
@@ -201,6 +247,19 @@ h2.title-bg-azzurro{
     width: 35%;
   } 
 
+  .img-bg-secondary{
+    height: 550px;
+    padding: 30px;
+  }
+
+  h2.title-text-white{
+    font-size: 50px;
+  }
+
+  .img-bg-white{
+    height: 550px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -220,6 +279,13 @@ h2.title-bg-azzurro{
     padding-bottom: 250px;
   }
 
+  .img-bg-secondary{
+    height: 650px;
+  }
+
+  .img-bg-white{
+    height: 650px;
+  }
 }
 
 @media screen and (min-width: 1200px) {
@@ -245,5 +311,39 @@ h2.title-bg-azzurro{
 
   .pad-bot{
     padding-bottom: 83px;
+  }
+
+  .left-img-text{
+    width: 50%;
+  }
+
+  .img-bg-secondary{
+    height: 500px;
+    padding: 80px;
+  }
+
+  .right-img-text{
+    width: 50%;
+    padding-left: 80px;
+    padding-top: 80px;
+    padding-right: 80px;
+  }
+
+  h2.title-text-white{
+    font-size: 40px;
+  }
+
+  .title-text-white, .p-text-white{
+    padding: 0 80px;
+  }
+
+  .img-bg-white{
+    width: 260px;
+    height: 260px;
+    margin: 0 40px;
+  }
+
+  .bg-white-down{
+    margin-top: 130px;
   }
 }
