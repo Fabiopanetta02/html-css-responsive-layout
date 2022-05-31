@@ -108,6 +108,32 @@ main{
   padding: 30px;
 }
 
+/* Section testimonials */
+.text-lilla{
+  color: var(--secondary-color-bg);
+}
+
+h2.text-lilla{
+  font-size: 50px;
+}
+
+.testimonial1{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-right: 20px;
+}
+
+/* Section benefits */
+.button-lilla{
+  background-color: var(--secondary-color-bg);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 50px;
+  letter-spacing: 3px;
+  border-radius: 20px;
+}
+
 
 /* Utils */
 body{
@@ -129,6 +155,10 @@ section{
   margin-bottom: 20px;
   padding: 0 30px;
   padding-top: 30px;
+}
+
+.mb-20{
+  margin-bottom: 20px;
 }
 
 .mb-30{
@@ -162,26 +192,6 @@ h2.title-bg-azzurro{
   color: #fff;
 }
 
-/* Section testimonials */
-.text-lilla{
-  color: var(--secondary-color-bg);
-}
-
-h2.text-lilla{
-  font-size: 50px;
-}
-
-.testimonial1{
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  margin-right: 20px;
-}
-
-
-
-
-
 /* Utils secondary color */
 .bg-secondary{
   background-color: var(--secondary-color-bg);
@@ -211,6 +221,11 @@ h2.text-lilla{
   padding: 20px 5px;
 }
 
+.bg-white{
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 20px;
+}
 
 /* Media query */
 @media screen and (min-width: 480px) {
@@ -242,6 +257,16 @@ h2.text-lilla{
 
   .text-right p, h3{
     text-align: center;
+  }
+
+  .text-white-lilla{
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 20px;
+  }
+
+  .col-lilla{
+    margin-bottom: 20px;
   }
 
 }
@@ -302,6 +327,11 @@ h2.text-lilla{
     text-align: left;
   }
 
+  .col-lilla{
+    width: calc(100% / 2);
+    padding: 10px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -332,6 +362,11 @@ h2.text-lilla{
   .flex-bg-lilla{
     display: flex;
     align-items: center;
+  }
+
+  .col-lilla{
+    width: calc(100% / 3);
+    padding: 10px;
   }
 }
 
