@@ -117,8 +117,8 @@ h2.text-lilla{
   font-size: 50px;
 }
 
-.testimonial1{
-  width: 150px;
+.img-round{
+  width: 220px;
   height: 150px;
   border-radius: 50%;
   margin-right: 20px;
@@ -132,6 +132,26 @@ h2.text-lilla{
   padding: 10px 50px;
   letter-spacing: 3px;
   border-radius: 20px;
+}
+
+/* Section about */
+.img-round-about{
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.button-lilla-about{
+  background-color: var(--secondary-color-bg);
+  color: #fff;
+  text-decoration: none;
+  padding: 10px 10px;
+  border-radius: 20px;
+}
+
+p.text-lilla{
+  font-size: 20px;
+  font-weight: bold;
 }
 
 
@@ -190,6 +210,14 @@ h2.title-bg-azzurro{
 
 .text-white, .p-text-white{
   color: #fff;
+}
+
+.pos-rela{
+  position: relative;
+}
+
+.fa-quote-left{
+  color: var(--secondary-color-bg);
 }
 
 /* Utils secondary color */
@@ -269,6 +297,17 @@ h2.title-bg-azzurro{
     margin-bottom: 20px;
   }
 
+  .about-right{
+    text-align: left;
+  }
+
+  .fa-quote-left{
+    position: absolute;
+    top: 10px;
+    right: 280px;
+    font-size: 30px;
+  }
+
 }
 
 @media screen and (min-width: 768px) {
@@ -332,6 +371,26 @@ h2.title-bg-azzurro{
     padding: 10px;
   }
 
+  .flex-about{
+    display: flex;
+  }
+
+  .about-left{
+    width: 70%;
+    margin-right: 20px;
+  }
+
+  .about-right{
+    width: 30%;
+  }
+
+  .fa-quote-left{
+    position: absolute;
+    top: 10px;
+    right: 60px;
+    font-size: 30px;
+  }
+
 }
 
 @media screen and (min-width: 992px) {
@@ -367,6 +426,13 @@ h2.title-bg-azzurro{
   .col-lilla{
     width: calc(100% / 3);
     padding: 10px;
+  }
+
+  .fa-quote-left{
+    position: absolute;
+    top: 10px;
+    right: 130px;
+    font-size: 30px;
   }
 }
 
@@ -427,5 +493,21 @@ h2.title-bg-azzurro{
 
   .bg-white-down{
     margin-top: 130px;
+  }
+
+  .about-left{
+    width: 80%;
+    margin-right: 20px;
+  }
+
+  .about-right{
+    width: 20%;
+  }
+
+  .fa-quote-left{
+    position: absolute;
+    top: 10px;
+    right: 70px;
+    font-size: 30px;
   }
 }
